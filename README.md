@@ -20,3 +20,10 @@
 - **Spring AMQP**: Supoete para mensageria assincrona;
 - **Spring WebFlux**: progrmação reativa;
 - **Spring AI**: Integração de inteligência artificial;
+
+## REST:
+- Padrão arquitetônico, que significa "Representational State Transfer", que define um conjunto de restrições e principios para contrução de um serviço web. Um gua para construir APIs de forma eficiente e escalável;
+- A principal utilização do Sring Boot é para construir aplicações do tipo REST;
+- **Vantagem**: Amplamente utilizado para criar APIs quer permitem a comunicação entre diferentes sistemas;
+- Acessa os dados através do protocolo de internet HTTP ou HTTPS
+
