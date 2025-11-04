@@ -28,3 +28,14 @@
 - Acessa os dados através do protocolo de internet HTTP ou HTTPS
 <img width="916" height="425" alt="image" src="https://github.com/user-attachments/assets/5fd57354-88e7-401a-bc5a-bbb83bfeebd2" />
 
+## API REST:
+- **Principais Caracteríscas:
+	- 1- Cliente-Servidor;
+	- 2- Sem Estado: Cada pedido do cliente ou servidor, é independente, o servidor não gurda informações sobre pedidos anteriores, embora dê pra fazer algumas impelmentações...as requisições são feitas de forma isoladas
+	``` **Exemplo**: Nosso projeto de dados clímaticos```
+	- 3- Cacheável;
+	- 4- Interface Uniforme: Exemplos: GET, POST, PUT, DELETE. Independente do cliente ele utiliza o HTTP;
+	- 5- Sistema em camadas: Escalabilidade e gerenciamento da aplicação;
+- **Vantagens das APIs REST**:
+	- Simplicidade;
+	- Escalabilidade;
