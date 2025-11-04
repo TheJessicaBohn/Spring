@@ -16,4 +16,7 @@
 - **Spring Security**: Funcionalidades robustas de segurança;
 - **Spring Batch**: Processamento de grandes volumes de dados;
 - **Spring Cloud**: Ferramentas para sistemas distribuídos e microsserviços;
-- **Spring Integration**:
+- **Spring Integration**: Soluções de integração empresarial;
+- **Spring AMQP**: Supoete para mensageria assincrona;
+- **Spring WebFlux**: progrmação reativa;
+- **Spring AI**: Integração de inteligência artificial;
