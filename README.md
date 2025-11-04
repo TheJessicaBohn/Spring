@@ -1,4 +1,4 @@
-# SpringBoot
+# Spring
 
 ## Introdução ao Spring
 	- Coleção de frameworks que serve para fazer varias coisas;
