@@ -26,4 +26,4 @@
 - A principal utilização do Sring Boot é para construir aplicações do tipo REST;
 - **Vantagem**: Amplamente utilizado para criar APIs quer permitem a comunicação entre diferentes sistemas;
 - Acessa os dados através do protocolo de internet HTTP ou HTTPS
-
+<img width="916" height="425" alt="image" src="https://github.com/user-attachments/assets/5fd57354-88e7-401a-bc5a-bbb83bfeebd2" />
