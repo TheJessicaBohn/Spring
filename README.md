@@ -39,3 +39,12 @@
 - **Vantagens das APIs REST**:
 	- Simplicidade;
 	- Escalabilidade;
+
+## APIs RESTful com Spring Boot
+
+- **RESTful**: Serviço web que segue as regras REST implementadas completamente:
+	- 1- GET: Usado para ler dados.
+	- 2- POST: Usado para criar novos dados.
+	- 3- PUT: Usado para atualizar dados existentes.
+	- 4- DELETE: Usado para excluir dados.
+- Se sua API tiver as operações GET, POST, PUT e DELETE corretamente implementadas, seguindo as boas práticas do REST, você pode chamá-la de RESTful;
