@@ -118,3 +118,8 @@
 			}
 		}
  	~~~
+
+ ## Benefícios do IoC:
+ - Desacoplamento: o cada módulo fica mais independente do outro, se uma parte quebra,só aquela parte específica vai precisar ser trocada, e isso permite maior evolução pois uma parte não afetra outras;
+ - Testabilidade: testar partes isoladas do código, substituindo dependências reais por versões de teste;
+ - Flexibilidade: Pode mudar a configuração e o comportamento do sistema, sem mexer no código fonte, facilitando assim as adaptações e as melhorias que precisam ser feitas so longo do tempo;
