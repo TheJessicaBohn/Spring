@@ -145,3 +145,10 @@
  	- Facilidade de configuração: possui assistentes de configuração que ajuda a criar os projetos Spring de uma maneira mais fácil e rápida, sem configuração de cada detalhe do projeto;
  	- Suporte ao Spring: Suporte nativo para Spring, como o spring boot, spring MVC, Spring Data;
  	- Ferramentas de Produtividade: Ferramentas avançadas para navegação de código, dependencias e muito mais;
+ 	- Maven: Gerenciador de dependencias e automação de build que usa o arquivo ```pom.xml``` para declarar bibliotecas e plugins necessários para o projeto;
+ 	- Suporte com o Git;
+ - Alternativas ao STS:
+ 	- Eclipse;
+ 	- Intellij IDEA;
+ 	- Visual Studio Code(Meu preferido);
+ 	- NetBeans;
