@@ -123,3 +123,17 @@
  - Desacoplamento: o cada módulo fica mais independente do outro, se uma parte quebra,só aquela parte específica vai precisar ser trocada, e isso permite maior evolução pois uma parte não afetra outras;
  - Testabilidade: testar partes isoladas do código, substituindo dependências reais por versões de teste;
  - Flexibilidade: Pode mudar a configuração e o comportamento do sistema, sem mexer no código fonte, facilitando assim as adaptações e as melhorias que precisam ser feitas so longo do tempo;
+
+ ## Por que usar Spring:
+ - Injeção de dependência: e seu gerenciamento;
+ - Modulariadade:
+ 	- Desenvolvimento Independente: cada módulo pode ser desenvolvido e atualizado separadamente, facilitando a colaboração em equipes;
+ 	- Facilidade de Manutenção: as modificações em um módulo não afetam diretamente os outros módulos, tornando a manutenção do seu sistema mais fácil, ou seja, a utilizar os padrões contidos no Spring e lhe força que você desenvolva ;
+ 	- Reutilização de código: Módulos que podem ser reutilizados em diferentes projetos, isso economiza tempo e esforço no desenvolvimento;
+ - Comuinidade e suporte: Altamente utilizado, então possui uma extensa documentação online;
+ - Configuração Simplificada: a configuração inicial do Spring Boot é mínima, e permite que você inicie o projeto mais rápidamente, sem configuração de dependências mainuais;
+ - Escalabilidade: o Spring já vem projetado para ser escalável, suporta grande aplicações corporativas;
+ - Flexibilidade: integração fácil com outras tecnologias e frameworks, como por exemplo vários tipo de banco de dados;
+ - Mas se não utilizar:
+ 	- Menos sobrecarga: menor uso de memória e uso de CPU em projetos pequenos;
+ 	- Simplicidade: para projetos muito simple é mais fácil gerenciar sem a complexidade adicional do spring, e aprender a mexer com o framework spring;
