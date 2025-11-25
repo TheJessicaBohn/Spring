@@ -137,3 +137,11 @@
  - Mas se não utilizar:
  	- Menos sobrecarga: menor uso de memória e uso de CPU em projetos pequenos;
  	- Simplicidade: para projetos muito simple é mais fácil gerenciar sem a complexidade adicional do spring, e aprender a mexer com o framework spring;
+
+ ## Spring Tool Suite(STS):
+ - O que é o Spring Tool Suite(STS):
+ 	- É um ambiente de desenvolvimento integrado, baseado no eclipse(IDE), que é utilizado em desenvolvimento de aplicações Spring. Fornece uma gama de ferramentas que torna o desenvolvimento mais fácil, rápido e produtivo;
+ - Por que usar o STS:
+ 	- Facilidade de configuração: possui assistentes de configuração que ajuda a criar os projetos Spring de uma maneira mais fácil e rápida, sem configuração de cada detalhe do projeto;
+ 	- Suporte ao Spring: Suporte nativo para Spring, como o spring boot, spring MVC, Spring Data;
+ 	- Ferramentas de Produtividade: Ferramentas avançadas para navegação de código, dependencias e muito mais;
