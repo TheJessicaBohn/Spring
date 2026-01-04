@@ -159,6 +159,14 @@
   - Automação de Build(transformar o código em aplicativo);
   - Gerenciamento de Dependências: faz o download da biblioteca que você precisa, e a sua integração, também cuida da consistência pois garante que todos os que estão trabalhando no mesmo projeto usem as mesma bibliotecas e configurações;
   - Facilidade de confifiguração: Ele utiliza um unico arquivo o ```pom.xml```, pra definir como o seu projeto vai ser estruturado;
-  - Estrutura básica de um projeto Maven:(438)
-    <img width="187" height="142" alt="image" src="https://github.com/user-attachments/assets/64cfdd23-5369-4165-965f-12bc3de03552" />
-	
+  - Estrutura básica de um projeto Maven:
+    - <img width="187" height="142" alt="image" src="https://github.com/user-attachments/assets/64cfdd23-5369-4165-965f-12bc3de03552" />
+	- Estrutura de pastas:
+    	- my-app: diretório raiz do projeto
+       	- src: diretório príncipal, onde o código fonte e os recursos do projeto são armazenados;
+       	- main: onde contém o código fonte principal do aplicativo;
+       	- java: onde ficam os arquivos de cógido java do aplicativo;
+       	- resources: recursos incluídos no build final, como arquivos de configuração, de imagem, etc;
+       	- test: contém os teste de unidade e recursos relacionados aos testes;
+       	- java(de testes): arquivos java relacionados a testes;
+       	- pom.xml: arquivo de configuração principal do maven, fica no diretório raiz.(439)
