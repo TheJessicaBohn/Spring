@@ -152,3 +152,13 @@
  	- Intellij IDEA;
  	- Visual Studio Code(Meu preferido);
  	- NetBeans;
+
+## Maven(Apache):
+- Ferramenta de gerenciamento de projetos;
+- Porque usar:
+  - Automação de Build(transformar o código em aplicativo);
+  - Gerenciamento de Dependências: faz o download da biblioteca que você precisa, e a sua integração, também cuida da consistência pois garante que todos os que estão trabalhando no mesmo projeto usem as mesma bibliotecas e configurações;
+  - Facilidade de confifiguração: Ele utiliza um unico arquivo o ```pom.xml```, pra definir como o seu projeto vai ser estruturado;
+  - Estrutura básica de um projeto Maven:(438)
+    <img width="187" height="142" alt="image" src="https://github.com/user-attachments/assets/64cfdd23-5369-4165-965f-12bc3de03552" />
+	
