@@ -169,4 +169,70 @@
        	- resources: recursos incluídos no build final, como arquivos de configuração, de imagem, etc;
        	- test: contém os teste de unidade e recursos relacionados aos testes;
        	- java(de testes): arquivos java relacionados a testes;
-       	- pom.xml: arquivo de configuração principal do maven, fica no diretório raiz.(439)
+       	- pom.xml: arquivo de configuração principal do maven, fica no diretório raiz.
+
+### POM - Project Object Model(Modelo de Objeto do projeto) :
+- Funções principais:
+  	- É a espinha dorçal de qualquer projeto Maven;
+  	- Define como o projeto é estruturado, cosntruído e principalmente gerenciado;
+	- Ferenciamento de Dependências;
+   	- Configurações do build;
+   	  - Passos do build;
+   	  - Empacotamento;
+   	  - Deploy;
+   	- Metadados do Projeto;
+  	- Ele é um arquivo xml que contém as informações sobre o projeto e configurações detalhadas usadas pelo Maven para contruir o projeto;
+	- O Maven é a tecnologia, e o POM é o que configura o Maven;
+- Exemplo de estrutura Básica do ```pom.xml```
+- ~~~XML
+
+  <project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.minhaempresa</groupId> <!-- Identificador único do grupo/organização -->
+    <artifactId>meu-projeto-web</artifactId> <!-- Nome do projeto/artefato -->
+    <version>1.0-SNAPSHOT</version> <!-- Versão do projeto -->
+    <packaging>war</packaging> <!-- Tipo de empacotamento: jar, war, pom -->
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source> <!-- Versão do Java -->
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Dependência para uma biblioteca de testes (JUnit) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope> <!-- Escopo: compilação, teste, runtime, etc. -->
+        </dependency>
+        <!-- Dependência para uma biblioteca web (ex: Spring Web) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Plugin para compilar o código -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+            <!-- Plugin para rodar os testes -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+        </plugins>
+    </build>
+
+  </project>
+  ~~~
+	
+
+		
