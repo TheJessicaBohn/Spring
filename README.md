@@ -233,6 +233,11 @@
 
   </project>
   ~~~
+
+  ## Criando um novo projeto Spring no Visual Studio Code:
+  - Tentei criar esse tutorial da forma mais fácil possível porque não gosto do Spring tools e tenho um certo apego ao vs code, da época que eu trabalhava com C#....como se alguém fosse ler esse repositório além de mim...
+  - Por Limitação o Java 22 não suporta o Spring, então vc vai ter que ter o 21 ou 17...
+  - Vou usar o 17, pois é mais estavél: [java 17](https://adoptium.net/pt-BR/temurin/releases?version=17&os=any&arch=any)
 	
 
 		
