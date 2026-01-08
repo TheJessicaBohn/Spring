@@ -236,10 +236,25 @@
 
   ## Criando um novo projeto Spring no Visual Studio Code:
   - Tentei criar esse tutorial da forma mais fácil possível porque não gosto do Spring tools e tenho um certo apego ao vs code, da época que eu trabalhava com C#....como se alguém fosse ler esse repositório além de mim...
-  - Por Limitação o Java 22 não suporta o Spring, então vc vai ter que ter o 21 ou 17...
-  - Vou usar o 17, pois é mais estavél: [java 17](https://adoptium.net/pt-BR/temurin/releases?version=17&os=any&arch=any)
-  - Lembre-se de trocar o PATH
-  - <img width="658" height="178" alt="image" src="https://github.com/user-attachments/assets/863fdd3d-dc2e-494b-aeb2-e2cac1131e37" />
+  - Vou usar o java 22 que é o que está instalado na minha maquina
+  - Rode o comando: ele cria um arquivo sprint compactado
+  - ```
+    curl.exe https://start.spring.io/starter.zip `
+	  -d type=maven-project `
+	  -d language=java `
+	  -d baseDir=learning-api `
+	  -d groupId=com.jess `
+	  -d artifactId=learning-api `
+	  -d name=learning-api `
+	  -d packageName=com.jess.learning `
+	  -d javaVersion=22 `
+	  -d dependencies=web `
+	  -o learning-api.zip
+	```
+ 
+  - E para descompactar: ```tar -xf learning-api.zip```
+  - Instale o Maven: ``` .\mvnw spring-boot:run```
+
 
 	
 
