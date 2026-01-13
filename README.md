@@ -254,6 +254,9 @@
  
   - E para descompactar: ```tar -xf learning-api.zip```
   - Instale o Maven: ``` .\mvnw spring-boot:run```
+  - Após isso vai ser gerado uma estrutura de pasta
+  - <img width="400" height="558" alt="image" src="https://github.com/user-attachments/assets/2ce5bd89-2b04-442f-b5c8-1b7bdc27e9aa" />
+
 
 
 	
