@@ -257,6 +257,18 @@
   - Após isso vai ser gerado uma estrutura de pasta
   - <img width="400" height="558" alt="image" src="https://github.com/user-attachments/assets/2ce5bd89-2b04-442f-b5c8-1b7bdc27e9aa" />
 
+  ## Dependências:
+  - Ao gerar o Projeto o SpringBoot já adicionou dependências ao projeto:
+    - <img width="471" height="225" alt="image" src="https://github.com/user-attachments/assets/d6aadba9-1740-4343-9e19-237e1850106c" />
+	- Serão adicionadas as dependências:
+ - ~~~XML
+    <!-- Driver JDBC do SQLite -->
+	<dependency>
+	 <groupId>org.xerial</groupId>
+	 <artifactId>sqlite-jdbc</artifactId>
+	</dependency>
+   ~~~
+
 
 
 	
