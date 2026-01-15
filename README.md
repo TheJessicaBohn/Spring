@@ -263,10 +263,18 @@
 	- Serão adicionadas as dependências:
  - ~~~XML
     <!-- Driver JDBC do SQLite -->
+	<!-- Banco de dados que será utilizado no projeto -->
 	<dependency>
 	 <groupId>org.xerial</groupId>
 	 <artifactId>sqlite-jdbc</artifactId>
 	</dependency>
+
+	<!-- Spring Data JPA -->
+	<!-- JPA(Java Pesistence API), que fornce uma forma padrão de mapear os objetos Java para tabelas em um banco de dados relacional. Deixa o CRUD mais fácil  -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency> 446
    ~~~
 
 
